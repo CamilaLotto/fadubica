@@ -1,0 +1,59 @@
+.contenido{
+  width: 50%;
+margin: auto;
+    
+}
+
+#pagina1{
+    font-family: Helvetica;
+    color:#2d3039;
+    font-size: 100%;
+    margin-top:-70px;
+}
+
+article{
+    font-family: Helvetica;
+    color:darkgrey;
+    font-size:80%;
+    width: 40%;
+}
+
+h1{
+    font-family: Helvetica;
+    font-size:800%;
+    color:#2d3039;
+}
+
+
+#pie{
+    background-color: #2d3039;
+    position:absolute;
+    bottom: 0;
+    height: 150px;
+    width: 100%;
+    margin:0;
+    padding:10px;
+    border:0;
+    outline:0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+#lista{
+    font-family: Helvetica;
+    color: whitesmoke;
+    font-size: 80%
+    margin: auto;
+}
+#texto{
+    font-family: Helvetica;
+    color:whitesmoke;
+    font-size: 80%;
+    width: 35%
+    margin:auto;
+    
+
+}

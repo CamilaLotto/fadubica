@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('fonts/opensans-light-webfont.eot');
+    src: url('fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-light-webfont.woff2') format('woff2'),
+         url('fonts/opensans-light-webfont.woff') format('woff'),
+         url('fonts/opensans-light-webfont.ttf') format('truetype'),
+         url('fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('fonts/opensans-bold-webfont.eot');
+    src: url('fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('fonts/opensans-bold-webfont.woff') format('woff'),
+         url('fonts/opensans-bold-webfont.ttf') format('truetype'),
+         url('fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.contenido{
+  width: 50%;
+margin: auto;
+    
+}
+
+
+
+article{
+    font-family:'open_sanslight' ;
+    color:darkgrey;
+    font-size:80%;
+    width: 40%;
+}
+
+h1{
+    font-family:'open_sansbold';
+    font-size:800%;
+    color:#2d3039;
+}
+
+#pagina1{
+    font-family: 'open_sanslight';
+
+    font-size: 100%;
+    
+}
+
+
+#pie{
+    background-color: #2d3039;
+    position:absolute;
+    bottom: 0;
+    height: 150px;
+    width: 100%;
+    margin:0;
+    padding:10px;
+    border:0;
+    outline:0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+#lista{
+    font-family: 'open_sanslight';
+    color: whitesmoke;
+    font-size: 80%
+    margin: auto;
+}
+#texto{
+    font-family: 'open_sanslight';
+    color:whitesmoke;
+    font-size: 80%;
+    width: 35%
+    margin:auto;
+
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 4px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'open_sansbold';
+    align-items: flex-start;
+    list-style: none;
+    flex-basis: auto;
+}
+.barra {
+    background-color: yellow;
+    padding: 2em;
+}
+.items {
+    background-color: red;
+    margin: 1em;
+    padding: 1em;
+}
+.padre{
+    display:flex;
+    flex-direction: row;
+}
